@@ -1,0 +1,67 @@
+html {
+    margin: auto;
+    width: 46.6%;
+    background-color: white;
+}
+
+.all {}
+
+.title {
+    color: black;
+    border: white 1px solid;
+    background-color: white;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.container {
+    display: grid;
+    width: 700px;
+    height: 700px;
+    grid-gap: 10px;
+    background-color: black;
+    grid-template-areas: 's1 s2 s3' 's4 s5 s6' 's7 s8 s9';
+}
+
+.container :hover {
+    background-color: grey;
+}
+
+#s1 {
+    background-color: white;
+    padding-top: 20px;
+}
+
+#s2 {
+    background-color: white;
+}
+
+#s3 {
+    background-color: white;
+}
+
+#s4 {
+    background-color: white;
+}
+
+#s5 {
+    background-color: white;
+}
+
+#s6 {
+    background-color: white;
+}
+
+#s7 {
+    background-color: white;
+}
+
+#s8 {
+    background-color: white;
+}
+
+#s9 {
+    background-color: white;
+}
